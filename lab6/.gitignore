@@ -2,3 +2,15 @@
 .mplconfig/
 __pycache__/
 *.pyc
+*.docx
+*.pdf
+*.txt
+*.csv
+*.json
+*.xml
+*.html
+*.css
+*.js
+*.php
+*.sql
+*.md
