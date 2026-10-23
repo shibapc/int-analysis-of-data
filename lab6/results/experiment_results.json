@@ -1,0 +1,364 @@
+{
+  "n": 850,
+  "compare_k": 6,
+  "pca_ratio": [
+    0.4406432124197145,
+    0.21026295361364986
+  ],
+  "axis": [
+    "ГК 1 (44% дисперсии)",
+    "ГК 2 (21% дисперсии)"
+  ],
+  "kmeans_sizes": [
+    336,
+    139,
+    101,
+    180,
+    80,
+    14
+  ],
+  "kmedoids_sizes": [
+    271,
+    134,
+    140,
+    188,
+    107,
+    10
+  ],
+  "kmeans_sse": 2597.5511425039836,
+  "kmedoids_error": 1380.7434865897594,
+  "methods": {
+    "single": {
+      "label": "Single linkage",
+      "last_height": 6.74017688322634,
+      "cut_height": 4.044214332036068,
+      "sizes": [
+        843,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ari_kmeans": 0.010568510211455783,
+      "ari_kmedoids": 0.008954964915622777,
+      "profiles": [
+        {
+          "cluster": 0,
+          "n": 843,
+          "Age": 34.93119810201661,
+          "Education": 1.708185053380783,
+          "YearsEmployed": 8.454329774614472,
+          "Income": 45.376037959667855,
+          "CardDebt": 1.4678137603795967,
+          "OtherDebt": 2.932619217081851,
+          "DebtIncomeRatio": 10.081138790035588
+        },
+        {
+          "cluster": 1,
+          "n": 3,
+          "Age": 49.333333333333336,
+          "Education": 1.0,
+          "YearsEmployed": 28.333333333333332,
+          "Income": 128.33333333333334,
+          "CardDebt": 16.462666666666667,
+          "OtherDebt": 15.488333333333332,
+          "DebtIncomeRatio": 24.96666666666667
+        },
+        {
+          "cluster": 2,
+          "n": 1,
+          "Age": 50.0,
+          "Education": 1.0,
+          "YearsEmployed": 30.0,
+          "Income": 150.0,
+          "CardDebt": 13.552999999999999,
+          "OtherDebt": 35.196999999999996,
+          "DebtIncomeRatio": 32.5
+        },
+        {
+          "cluster": 3,
+          "n": 1,
+          "Age": 40.0,
+          "Education": 3.0,
+          "YearsEmployed": 5.0,
+          "Income": 220.0,
+          "CardDebt": 8.166,
+          "OtherDebt": 27.034000000000002,
+          "DebtIncomeRatio": 16.0
+        },
+        {
+          "cluster": 4,
+          "n": 1,
+          "Age": 47.0,
+          "Education": 3.0,
+          "YearsEmployed": 16.0,
+          "Income": 221.0,
+          "CardDebt": 15.792,
+          "OtherDebt": 23.104,
+          "DebtIncomeRatio": 17.6
+        },
+        {
+          "cluster": 5,
+          "n": 1,
+          "Age": 43.0,
+          "Education": 4.0,
+          "YearsEmployed": 18.0,
+          "Income": 446.0,
+          "CardDebt": 16.031,
+          "OtherDebt": 12.959000000000001,
+          "DebtIncomeRatio": 6.5
+        }
+      ]
+    },
+    "complete": {
+      "label": "Complete linkage",
+      "last_height": 14.783362507327507,
+      "cut_height": 8.208258946165287,
+      "sizes": [
+        555,
+        23,
+        260,
+        4,
+        3,
+        5
+      ],
+      "ari_kmeans": 0.2781038204328809,
+      "ari_kmedoids": 0.24902166332579045,
+      "profiles": [
+        {
+          "cluster": 0,
+          "n": 555,
+          "Age": 31.944144144144143,
+          "Education": 1.6576576576576576,
+          "YearsEmployed": 5.01981981981982,
+          "Income": 29.922522522522524,
+          "CardDebt": 1.0044108108108107,
+          "OtherDebt": 2.0293135135135136,
+          "DebtIncomeRatio": 10.154054054054054
+        },
+        {
+          "cluster": 1,
+          "n": 23,
+          "Age": 35.17391304347826,
+          "Education": 2.347826086956522,
+          "YearsEmployed": 9.91304347826087,
+          "Income": 58.73913043478261,
+          "CardDebt": 5.510739130434784,
+          "OtherDebt": 8.779434782608696,
+          "DebtIncomeRatio": 25.60434782608695
+        },
+        {
+          "cluster": 2,
+          "n": 260,
+          "Age": 41.08461538461538,
+          "Education": 1.7692307692307692,
+          "YearsEmployed": 15.307692307692308,
+          "Income": 73.62307692307692,
+          "CardDebt": 1.9635346153846154,
+          "OtherDebt": 4.1424730769230775,
+          "DebtIncomeRatio": 8.473076923076922
+        },
+        {
+          "cluster": 3,
+          "n": 4,
+          "Age": 45.25,
+          "Education": 1.0,
+          "YearsEmployed": 24.75,
+          "Income": 114.25,
+          "CardDebt": 16.10125,
+          "OtherDebt": 15.296,
+          "DebtIncomeRatio": 29.05
+        },
+        {
+          "cluster": 4,
+          "n": 3,
+          "Age": 45.666666666666664,
+          "Education": 2.3333333333333335,
+          "YearsEmployed": 17.0,
+          "Income": 197.0,
+          "CardDebt": 12.503666666666666,
+          "OtherDebt": 28.444999999999997,
+          "DebtIncomeRatio": 22.03333333333333
+        },
+        {
+          "cluster": 5,
+          "n": 5,
+          "Age": 47.4,
+          "Education": 1.8,
+          "YearsEmployed": 27.4,
+          "Income": 305.2,
+          "CardDebt": 8.7334,
+          "OtherDebt": 13.0398,
+          "DebtIncomeRatio": 7.24
+        }
+      ]
+    },
+    "average": {
+      "label": "Group average",
+      "last_height": 10.489657960451806,
+      "cut_height": 6.007206626547258,
+      "sizes": [
+        833,
+        4,
+        1,
+        2,
+        9,
+        1
+      ],
+      "ari_kmeans": 0.022454408452627014,
+      "ari_kmedoids": 0.017245629137904322,
+      "profiles": [
+        {
+          "cluster": 0,
+          "n": 833,
+          "Age": 34.81272509003601,
+          "Education": 1.6998799519807923,
+          "YearsEmployed": 8.313325330132052,
+          "Income": 43.206482593037215,
+          "CardDebt": 1.4159111644657862,
+          "OtherDebt": 2.839863145258103,
+          "DebtIncomeRatio": 10.085714285714287
+        },
+        {
+          "cluster": 1,
+          "n": 4,
+          "Age": 45.25,
+          "Education": 1.0,
+          "YearsEmployed": 24.75,
+          "Income": 114.25,
+          "CardDebt": 16.10125,
+          "OtherDebt": 15.296,
+          "DebtIncomeRatio": 29.05
+        },
+        {
+          "cluster": 2,
+          "n": 1,
+          "Age": 50.0,
+          "Education": 1.0,
+          "YearsEmployed": 30.0,
+          "Income": 150.0,
+          "CardDebt": 13.552999999999999,
+          "OtherDebt": 35.196999999999996,
+          "DebtIncomeRatio": 32.5
+        },
+        {
+          "cluster": 3,
+          "n": 2,
+          "Age": 43.5,
+          "Education": 3.0,
+          "YearsEmployed": 10.5,
+          "Income": 220.5,
+          "CardDebt": 11.979,
+          "OtherDebt": 25.069000000000003,
+          "DebtIncomeRatio": 16.8
+        },
+        {
+          "cluster": 4,
+          "n": 9,
+          "Age": 46.111111111111114,
+          "Education": 2.5555555555555554,
+          "YearsEmployed": 20.88888888888889,
+          "Income": 243.22222222222223,
+          "CardDebt": 4.766222222222222,
+          "OtherDebt": 10.20811111111111,
+          "DebtIncomeRatio": 6.188888888888889
+        },
+        {
+          "cluster": 5,
+          "n": 1,
+          "Age": 43.0,
+          "Education": 4.0,
+          "YearsEmployed": 18.0,
+          "Income": 446.0,
+          "CardDebt": 16.031,
+          "OtherDebt": 12.959000000000001,
+          "DebtIncomeRatio": 6.5
+        }
+      ]
+    },
+    "ward": {
+      "label": "Ward",
+      "last_height": 53.73436611157569,
+      "cut_height": 23.229360149481444,
+      "sizes": [
+        100,
+        395,
+        81,
+        105,
+        157,
+        12
+      ],
+      "ari_kmeans": 0.6659957335974506,
+      "ari_kmedoids": 0.4004623587532872,
+      "profiles": [
+        {
+          "cluster": 0,
+          "n": 100,
+          "Age": 30.78,
+          "Education": 1.39,
+          "YearsEmployed": 4.56,
+          "Income": 26.76,
+          "CardDebt": 1.60814,
+          "OtherDebt": 3.1618800000000005,
+          "DebtIncomeRatio": 18.330000000000002
+        },
+        {
+          "cluster": 1,
+          "n": 395,
+          "Age": 32.24810126582278,
+          "Education": 1.4151898734177215,
+          "YearsEmployed": 5.592405063291139,
+          "Income": 29.718987341772152,
+          "CardDebt": 0.6875164556962026,
+          "OtherDebt": 1.3448556962025315,
+          "DebtIncomeRatio": 7.0050632911392405
+        },
+        {
+          "cluster": 2,
+          "n": 81,
+          "Age": 33.46913580246913,
+          "Education": 3.506172839506173,
+          "YearsEmployed": 4.308641975308642,
+          "Income": 38.888888888888886,
+          "CardDebt": 1.0496296296296297,
+          "OtherDebt": 2.3207530864197534,
+          "DebtIncomeRatio": 9.130864197530864
+        },
+        {
+          "cluster": 3,
+          "n": 105,
+          "Age": 39.2952380952381,
+          "Education": 2.1333333333333333,
+          "YearsEmployed": 11.961904761904762,
+          "Income": 72.42857142857143,
+          "CardDebt": 3.8252857142857146,
+          "OtherDebt": 8.303771428571428,
+          "DebtIncomeRatio": 18.74190476190476
+        },
+        {
+          "cluster": 4,
+          "n": 157,
+          "Age": 41.82802547770701,
+          "Education": 1.4522292993630572,
+          "YearsEmployed": 17.35031847133758,
+          "Income": 75.98726114649682,
+          "CardDebt": 1.7557707006369432,
+          "OtherDebt": 3.1716942675159236,
+          "DebtIncomeRatio": 7.133121019108281
+        },
+        {
+          "cluster": 5,
+          "n": 12,
+          "Age": 46.25,
+          "Education": 1.6666666666666667,
+          "YearsEmployed": 23.916666666666668,
+          "Income": 214.5,
+          "CardDebt": 12.131916666666667,
+          "OtherDebt": 17.64316666666667,
+          "DebtIncomeRatio": 18.208333333333332
+        }
+      ]
+    }
+  }
+}
